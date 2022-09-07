@@ -1,0 +1,12 @@
+.btn-group {
+    display: table;
+    margin: 0 auto;
+}
+
+.line {
+    background: -webkit-gradient(linear, left top, left bottom, from(#6C63FF), to(#7672bd));
+    background: linear-gradient(#6C63FF 0%, #7672bd 100%);
+    width: 150px;
+    height: 5px;
+    margin-bottom: 10px !important;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Contact</title>
+
+    <link rel="stylesheet" href="./assets/css/daisyui.min.css">
+    <script src="./assets/js/tailwind.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="./assets/js/jquery.min.js"></script>
+</head>
+<body class="bg-base-200">
+    <section class="pt-16 pl-16">
+        <h1 class="text-5xl font-bold">Contact Me</h1>
+    </section>
+
+    <div class="max-w-screen-xl pl-16 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 mx-auto text-gray-900">
+        <div class="flex flex-col justify-between">
+          <div>
+            <div>
+              <h2 class="text-2xl font-bold mt-10 ">🧩 Social Media</h2>
+            <div class="line" style="width: 120px;"></div>
+    
+            <ul class="list-disc ml-5">
+              <li><a href="#" class="hover:text-indigo-500">Twitter</a></li>
+              <li><a href="#" class="hover:text-indigo-500">Facebook</a></li>
+              <li><a href="#" class="hover:text-indigo-500">Instagram</a></li>
+              <li><a href="#" class="hover:text-indigo-500">Youtube</a></li>
+              <li><a href="#" class="hover:text-indigo-500">Etc...</a></li>
+            </ul>
+            </div>
+    
+            <div>
+              <h3 class="text-2xl font-bold mt-10">✉ Email</h3>
+            <div class="line" style="width: 120px;"></div>
+    
+            <ul class="list-disc ml-5">
+              <li><a href="mailto:your@email.com" class="hover:text-indigo-500">your@email.com</a></li>
+            </ul>
+            </div>
+    
+          </div>
+          </div>
+      
+          <div class="">
+            <form action="#" method="POST" id="contactForm">
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <span class="uppercase text-sm font-bold">Name</span>
+                  <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" placeholder="your name" name="namanya" required="">
+                </div>
+                <div class="">
+                  <span class="uppercase text-sm font-bold">Email</span>
+                  <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="email" placeholder="your@email.com" name="emailnya" required="">
+                </div>
+              </div>
+      
+              <div class="mt-8">
+                <span class="uppercase text-sm font-bold">Message</span>
+                <textarea class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" placeholder="type something... has 1024 max length..." name="messagenya" maxlength="1024" required=""></textarea>
+              </div>
+              <div class="mt-8">
+                <button class="uppercase text-sm font-bold btn btn-block btn-primary" id="contactFormSubmit">Send Message</button>
+              </div>
+            </form>
+          </div>
+      </div>
+
+      <div class="btn-group mt-10 mb-10">
+        <a class="btn" href="./index.html">Home</a>
+        <a class="btn" href="./about.html">About</a>
+        <a class="btn btn-active" href="./contact.html">Contact</a>
+    </div>
+</body>
+</html>
